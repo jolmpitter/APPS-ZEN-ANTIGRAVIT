@@ -122,7 +122,7 @@ export async function POST(req: NextRequest) {
         }
       });
 
-      const baseUrl = process.env.NEXTAUTH_URL || 'https://imagemstore.shop';
+      const baseUrl = process.env.NEXTAUTH_URL || 'http://localhost:3000';
       publicLink = `${baseUrl}/reports/view/${token}`;
     }
 

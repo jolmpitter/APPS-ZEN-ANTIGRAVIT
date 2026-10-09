@@ -64,7 +64,7 @@ Assim que o deploy começar, ele pode falhar na primeira vez se o banco de dados
     
     **Opção A (Mais fácil - Deploy do Seed):**
     Adicione o comando de seed ao build command temporariamente:
-    `npx prisma generate && npx prisma db push && npx ts-node scripts/seed.ts && next build`
+    `npx prisma generate && npx prisma db push && npm run seed && next build`
     
     **Opção B (Manual):**
     Acesse a rota de cadastro `/signup` do seu site publicado (ex: `...vercel.app/signup`) e crie uma conta.

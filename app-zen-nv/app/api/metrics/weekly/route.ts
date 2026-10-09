@@ -5,6 +5,8 @@ import { prisma } from '@/lib/db';
 import { startOfWeek, endOfWeek, startOfMonth, subWeeks, format, differenceInDays } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
 
+export const dynamic = 'force-dynamic';
+
 interface WeeklyMetrics {
   weekNumber: number;
   weekLabel: string;

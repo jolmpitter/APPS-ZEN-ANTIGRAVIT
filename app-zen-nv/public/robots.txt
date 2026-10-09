@@ -7,5 +7,3 @@ Disallow: /usuarios
 Disallow: /metricas
 Disallow: /perfil
 Disallow: /integracoes
-
-Sitemap: https://imagemstore.shop/sitemap.xml
